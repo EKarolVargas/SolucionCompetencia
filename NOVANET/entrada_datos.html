@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingreso datos</title>
+    <link rel="stylesheet" href="enrada_datos.css">
+</head>
+<body>
+    <section>
+        <h1>Agregar Aulas</h1>
+        <form action="procesar_aulas.php" method="POST">
+            <h3>Nombre del aula</h3>
+            <input type="text" name="nombre_aula" placeholder="Escribe el nombre del aula" required>
+
+            <h3>Capacidad</h3>
+            <input type="number" name="capacidad" placeholder="Ingresa la capacidad del aula" required>
+
+            <h3>Tipo de espacio</h3>
+            <select name="tipo_espacio" required>
+                <option value="salon">Salón</option>
+                <option value="laboratorio">Laboratorio</option>
+                <option value="computo">Área de cómputo</option>
+                <option value="usos_multiples">Usos múltiples</option>
+            </select>
+
+            <h3>Equipamiento</h3>
+            <input type="number" name="capacidad" placeholder="Ingresa la capacidad del aula" required>
+
+            <h3>Capacidad</h3>
+            <input type="number" name="capacidad" placeholder="Ingresa la capacidad del aula" required>
+
+            
+
+
+            <button type="submit">Enviar</button>
+    </section>
+    <div>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.5yAdMGqD36mD3QuHECyDEwHaFS?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Imagen de ejemplo">
+    </div>
+</body>
+</html>
